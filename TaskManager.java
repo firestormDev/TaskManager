@@ -6,18 +6,17 @@ import java.util.ArrayList;/**
 public class Main2 {   
    public static void main(String[] args) {
         System.out.println("--------------------------------------------------------------------------------------------------------------");
-        System.out.println("                          »» Bem vindo ao Task Manager do Luiz ««                                                     ");          
+        System.out.println("                          Â»Â» Bem vindo ao Task Manager do Luiz Â«Â«                                                     ");          
         System.out.println("    ");
-        System.out.println(" Insira o nome da sua tarefa:");  
+        
         Scanner n = new Scanner(System.in);  
-        String tarefa = n.next();   
-    
+        String tarefa = n.next();       
     	int next = 1;
     
     
     while (next != 2){
        System.out.println("  ");    
-       System.out.println("Digite a opção desejada ");
+       System.out.println("Digite a opÃ§Ã£o desejada ");
        System.out.println(" 1 - Inicio, 2 - Sair");
        next = n.nextInt();
        if( next == 2){
@@ -30,9 +29,9 @@ public class Main2 {
         case 1 :
             int res = 0;            
             System.out.println("--------------------------------------------------------------------------------------------------------------"); 
-            System.out.println("Escolha uma opção: ");
+            System.out.println("Escolha uma opÃ§Ã£o: ");
             System.out.println(" 1 - Add Task |   2 - Exit | 3 - Remove Task | 4- Ver Task");
-            System.out.println(" Opção: ");        
+            System.out.println(" OpÃ§Ã£o: ");        
             int opMenu2 = n.nextInt();            
         
              switch(opMenu2){
@@ -71,7 +70,7 @@ public class Main2 {
        
                  
                 default :
-                    System.out.println(" você inseriu uma opção inválida");
+                    System.out.println(" vocÃª inseriu uma opÃ§Ã£o invÃ¡lida");
                 break;
                }                  
             
